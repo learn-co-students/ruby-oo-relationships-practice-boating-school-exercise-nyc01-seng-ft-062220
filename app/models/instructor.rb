@@ -14,9 +14,9 @@ class Instructor
 
     def pass_student(stu, exam)
         Boatingtest.all.select do |id| 
-            #if id.student == stu && id.test_name == exam
-            #    id.test_status = "passed"
-            if id.test_name != exam
+            if id.student == stu && id.test_name == exam
+                id.test_status = "passed"
+            elsif id.test_name != exam
                 stu.add_boat_test(exam, "passed", self)
             end
         end
@@ -29,7 +29,6 @@ class Instructor
             elsif id.test_name != exam
                 stu.add_boat_test(exam, "failed", self)
             end
-            id.student
         end
     end
 
