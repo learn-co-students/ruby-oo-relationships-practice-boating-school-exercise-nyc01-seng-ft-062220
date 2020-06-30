@@ -2,13 +2,13 @@
 
 class BoatingTest
 
-    attr_accessor :test_name, :test_status, :stundent_inst, :instr_inst
+    attr_accessor :test_name, :test_status, :student_inst, :instr_inst
 
     @@all = []
 
-    def initialize(stundent_inst, test_name, test_status, instr_inst)
-        @stundent_inst = stundent_inst
-        @instr_name = instr_inst
+    def initialize(student_inst, test_name, test_status, instr_inst)
+        @student_inst = student_inst
+        @instr_inst = instr_inst
         @test_status = test_status
         @test_name = test_name
         @@all << self

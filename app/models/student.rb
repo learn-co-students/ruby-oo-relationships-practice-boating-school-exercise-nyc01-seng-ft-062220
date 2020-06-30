@@ -1,11 +1,11 @@
 class Student
 
-    attr_accessor :first_name
+    attr_accessor :student_inst
 
     @@all = []
 
-    def initialize(first_name)
-        @first_name = first_name
+    def initialize(student_inst)
+        @student_inst = student_inst
         @@all << self
     end
 
@@ -19,7 +19,7 @@ class Student
 
     def self.find_stundent(first_name)
         #will take in a first name and output the student object with that name
-        Student.all.select {|student| student.first_name == first_name}
+        Student.all.select {|student| student.student_inst == first_name}
     end
 
     def grade_percentage
