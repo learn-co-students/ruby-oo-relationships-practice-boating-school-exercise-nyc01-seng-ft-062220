@@ -1,4 +1,4 @@
-class Instructor
+!class Instructor
 
     attr_accessor :instructor_name
 
@@ -9,11 +9,11 @@ class Instructor
         @@all << self
     end
 
-    def pass_student(stundent_inst, test_name)
+    def pass_student(stundent, test_name)
         #if there is a BoatingTest whose name and student match the values passed in, this method should update the status of that BoatingTest to "passed".
         #if there is no matching test, this method should create a test with the student, that boat test name, and the status passed. This
         #Either way, it should return the BoatingTest instance.
-        BoatingTest.all.map {|test| test}
+        BoatingTest.all.map {|test| pp test.first_name}
     end
 
     def fail_student(stundent_inst, test_name)
