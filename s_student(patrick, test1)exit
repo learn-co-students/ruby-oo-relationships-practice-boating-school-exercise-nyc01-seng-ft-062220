@@ -1,0 +1,15 @@
+=> [[32m#<BoatingTest:0x00007fffe634c608[0m
+  @instructor[32m=[0m[32m#<Instructor:0x00007fffe634c6f8[0m @name[32m=[0m[31m[1;31m"[0m[31mMs.Puff[1;31m"[0m[31m[0m[32m>[0m,
+  @student[32m=[0m[32m#<Student:0x00007fffe634c748[0m @first_name[32m=[0m[31m[1;31m"[0m[31mPatrick[1;31m"[0m[31m[0m[32m>[0m,
+  @test_name[32m=[0m[31m[1;31m"[0m[31mtest1[1;31m"[0m[31m[0m,
+  @test_status[32m=[0m[31m[1;31m"[0m[31mpending[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<BoatingTest:0x00007fffe64c8978[0m
+  @instructor[32m=[0m[32m#<Instructor:0x00007fffe634c6f8[0m @name[32m=[0m[31m[1;31m"[0m[31mMs.Puff[1;31m"[0m[31m[0m[32m>[0m,
+  @student[32m=[0m[32m#<Student:0x00007fffe634c748[0m @first_name[32m=[0m[31m[1;31m"[0m[31mPatrick[1;31m"[0m[31m[0m[32m>[0m,
+  @test_name[32m=[0m
+   [32m#<BoatingTest:0x00007fffe634c608[0m
+    @instructor[32m=[0m[32m#<Instructor:0x00007fffe634c6f8[0m @name[32m=[0m[31m[1;31m"[0m[31mMs.Puff[1;31m"[0m[31m[0m[32m>[0m,
+    @student[32m=[0m[32m#<Student:0x00007fffe634c748[0m @first_name[32m=[0m[31m[1;31m"[0m[31mPatrick[1;31m"[0m[31m[0m[32m>[0m,
+    @test_name[32m=[0m[31m[1;31m"[0m[31mtest1[1;31m"[0m[31m[0m,
+    @test_status[32m=[0m[31m[1;31m"[0m[31mpending[1;31m"[0m[31m[0m[32m>[0m,
+  @test_status[32m=[0m[31m[1;31m"[0m[31mpassed[1;31m"[0m[31m[0m[32m>[0m]
